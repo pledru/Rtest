@@ -4,6 +4,7 @@
 #' matrix format and returns a properly formatted \code{CellDataSet} (CDS)
 #' object.
 #'
+#' @export
 test_it <- function() {
     print("test it...")
 }
