@@ -36,3 +36,23 @@ test_hashmap <- function() {
 
   h$insert(8, "8")
 }
+
+#' Test a graph
+#'
+#' This function tests a graph.
+#'
+#' @export
+test_graph <- function() {
+  x <- sample(1:10, 20, replace=TRUE)
+  y <- sample(1:10, 20, replace=TRUE)
+
+  states <- c("AL", "AK", "AR", "CA", "CO", "MA", "MO", "NC", "NY", "RI")
+  s <- sample(states, 20, replace=TRUE)
+
+  data <- data.frame(
+    name = s,
+    x = x,
+    y = y)
+
+  ggplot(data = data) + geom_point(mapping = aes(x = x, y = y, color = s))
+}
