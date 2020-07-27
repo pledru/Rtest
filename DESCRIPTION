@@ -8,6 +8,12 @@ Authors@R:
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.4.0),
+    methods
+Imports:
+    hashmap,
+    testthat
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
