@@ -10,10 +10,10 @@ Authors@R:
 Description: What the package does (one paragraph).
 Depends:
     R (>= 3.4.0),
+    hashmap,
     methods
 Imports:
     ggplot2,
-    hashmap,
     testthat
 License: MIT + file LICENSE
 Encoding: UTF-8
