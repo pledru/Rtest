@@ -26,6 +26,7 @@ test_it <- function() {
 #'
 #' This function tests a hashmap.
 #'
+#' @importFrom hashmap hashmap
 #' @export
 test_hashmap <- function() {
   x <- c(1,2,3,4)
@@ -41,6 +42,9 @@ test_hashmap <- function() {
 #'
 #' This function tests a graph.
 #'
+#' @importFrom ggplot2 aes
+#' @importFrom ggplot2 ggplot
+#' @importFrom ggplot2 geom_point
 #' @export
 test_graph <- function() {
   x <- sample(1:10, 20, replace=TRUE)

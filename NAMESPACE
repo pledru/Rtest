@@ -3,3 +3,7 @@
 export(test_graph)
 export(test_hashmap)
 export(test_it)
+importFrom(ggplot2,aes)
+importFrom(ggplot2,geom_point)
+importFrom(ggplot2,ggplot)
+importFrom(hashmap,hashmap)
