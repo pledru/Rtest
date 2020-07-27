@@ -12,9 +12,9 @@ Depends:
     R (>= 3.4.0),
     methods
 Imports:
+    ggplot2,
     hashmap,
-    testthat,
-    tidyverse
+    testthat
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
