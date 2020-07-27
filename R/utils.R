@@ -43,9 +43,7 @@ test_hashmap <- function() {
 #'
 #' This function tests a graph.
 #'
-#' @importFrom ggplot2 aes
-#' @importFrom ggplot2 ggplot
-#' @importFrom ggplot2 geom_point
+#' @importFrom ggplot2 aes ggplot geom_point
 #' @export
 test_graph <- function() {
   x <- sample(1:10, 20, replace=TRUE)
