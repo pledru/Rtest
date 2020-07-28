@@ -6,8 +6,8 @@ test_zero <- function() {
   t1 <- track(x = 1:10, y = 1:10 + rnorm(10))
 
   track_curve <- setClass("track_curve",
-      slots = c(smooth = "numeric"),
-      contains = "track")
+    slots = c(smooth = "numeric"),
+    contains = "track")
 
   t1s <- track_curve(t1, smooth = 1:10)
   t1s
@@ -21,7 +21,7 @@ test_zero <- function() {
 #'
 #' @export
 test_it <- function() {
-    print("test it...")
+  print("test it...")
 }
 
 #' Test a hashmap
