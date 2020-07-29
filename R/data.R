@@ -10,4 +10,4 @@
 #'   ...
 #' }
 #' @source \url{http://www.diamondse.info/}
-"x"
+"diamond_gene"
